@@ -17,9 +17,8 @@ ol, ul {
   list-style: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.body{
+  font-family: 'Leque spartan', sans-serif;
 }
 
 
@@ -32,4 +31,57 @@ img {
   padding-right: 133px;
   padding-bottom: 168px;
   background-color: #F8F8F8;
+}
+
+
+.header-title{
+  margin-bottom:53px;
+  font-size:24px;
+  line-height: 45px;
+  font-weight: 300;
+}
+
+.header-subtitle{
+  font-size:450px;
+  line-height:230px;
+  margin-bottom:53px;
+}
+
+.header-description{
+  font-size:32px;
+  line-height:50px;
+  margin-bottom:61px;
+}
+
+.buy-wrapper{
+  display:flex;
+}
+
+.buy-link{
+  display:block;
+  width:278px;
+  height:82px;
+  background-color:#161515;
+  color:#ffffff;
+  text-decoration: none;
+  font-size:32px;
+  line-height:82px;
+  text-align:center;
+}
+
+.price{
+  width:143px;
+  height:82px;
+  background-color:#ffffff;
+  color:#161515;
+  text-decoration: none;
+  font-size:32px;
+  line-height:82px;
+  text-align:center;
+}
+
+.header-img{
+  display:block;
+  width: 772px;
+  margin-top: -22%;
 }
